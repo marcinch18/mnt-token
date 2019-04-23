@@ -183,4 +183,4 @@ void menteentwk::menteevote( name voter, uint64_t proposal_id, bool approve, uin
 
 
 EOSIO_DISPATCH( menteentwk, (burn)(create)(issue)(transfer)(menteevote)(menteepropose) )
-EOSIO_DISPATCH( eosio::token, (create)(issue)(transfer) )
+
